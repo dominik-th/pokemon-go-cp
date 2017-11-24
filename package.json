@@ -1,0 +1,31 @@
+{
+  "name": "pokemon-go-cp",
+  "version": "1.0.0",
+  "description": "A calculator for Pokémon combat power given their level and IVs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominik-th/pokemon-go-cp.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokémon",
+    "go",
+    "combat",
+    "power",
+    "cp",
+    "calculator",
+    "level",
+    "iv",
+    "niantic"
+  ],
+  "author": "Dominik Thiemermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominik-th/pokemon-go-cp/issues"
+  },
+  "homepage": "https://github.com/dominik-th/pokemon-go-cp#readme"
+}
