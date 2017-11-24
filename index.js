@@ -4,7 +4,7 @@ exports.calculate = (pokemon, atk, def, hp) => {
   return 1;
 }
 
-combatPowerForumla = (atk, def, hp, multiplier) => {
+let combatPowerForumla = (atk, def, hp, multiplier) => {
   const normalizedAtk = atk;
   const normalizedDef = Math.pow(def, .5);
   const normalizedHp = Math.pow(hp, .5);
