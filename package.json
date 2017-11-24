@@ -22,7 +22,11 @@
     "iv",
     "niantic"
   ],
-  "author": "Dominik Thiemermann",
+  "author": {
+    "name": "Dominik Thiemermann",
+    "email": "d.thiemermann@gmail.com",
+    "url": "https://www.dthiemermann.org/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dominik-th/pokemon-go-cp/issues"
