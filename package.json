@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/dominik-th/pokemon-go-cp/issues"
   },
-  "homepage": "https://github.com/dominik-th/pokemon-go-cp#readme"
+  "homepage": "https://github.com/dominik-th/pokemon-go-cp#readme",
+  "devDependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
 }
