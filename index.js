@@ -1,7 +1,17 @@
 'use strict';
 
-exports.calculate = (pokemon, atk, def, hp) => {
-  return 1;
+const baseStats = require('./data/base-stats');
+const cpMultipliers = require('./data/cp-multiplier');
+
+exports.calculate = (pokemon, atk, def, hp, lvl = 20) => {
+  const stats = baseStats[pokemon - 1].pokemonSettings.stats;
+  const multiplier = cpMultipliers[lvl.toString()];
+
+  atk += stats.baseAttack;
+  def += stats.baseDefense;
+  hp += stats.baseStamina;
+
+  return combatPowerForumla(atk, def, hp, multiplier);
 }
 
 let combatPowerForumla = (atk, def, hp, multiplier) => {
