@@ -1,10 +1,15 @@
 {
   "name": "pokemon-go-cp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A calculator for Pokémon combat power given their level and IVs",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-env --copy-files --out-dir lib",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -33,6 +38,8 @@
   },
   "homepage": "https://github.com/dominik-th/pokemon-go-cp#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
   }
