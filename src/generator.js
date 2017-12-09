@@ -19,7 +19,7 @@ let generate = async () => {
 
   const pokemonTemplates = GAME_MASTER.itemTemplates.filter(template => {
     return pokemonTemplateIdPattern.test(template.templateId);
-  })
+  });
 
   const pokemonList = [];
   pokemonTemplates.map((template) => {
@@ -33,7 +33,7 @@ let generate = async () => {
 
   pokemonList.sort((a, b) => {
     return a.id - b.id;
-  })
+  });
 
   fs.writeFile("./data/base-stats.json", JSON.stringify(pokemonList, null, '  '), (err) => {
     if (err) {
