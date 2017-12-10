@@ -2493,7 +2493,7 @@
     "id": 250,
     "pokemonSettings": {
       "stats": {
-        "baseStamina": 212,
+        "baseStamina": 193,
         "baseAttack": 239,
         "baseDefense": 274
       }
@@ -2883,9 +2883,9 @@
     "id": 289,
     "pokemonSettings": {
       "stats": {
-        "baseStamina": 300,
-        "baseAttack": 319,
-        "baseDefense": 201
+        "baseStamina": 273,
+        "baseAttack": 290,
+        "baseDefense": 183
       }
     }
   },
@@ -3813,9 +3813,9 @@
     "id": 382,
     "pokemonSettings": {
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 297,
-        "baseDefense": 276
+        "baseStamina": 182,
+        "baseAttack": 270,
+        "baseDefense": 251
       }
     }
   },
@@ -3823,9 +3823,9 @@
     "id": 383,
     "pokemonSettings": {
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 297,
-        "baseDefense": 276
+        "baseStamina": 182,
+        "baseAttack": 270,
+        "baseDefense": 251
       }
     }
   },
@@ -3833,9 +3833,9 @@
     "id": 384,
     "pokemonSettings": {
       "stats": {
-        "baseStamina": 210,
-        "baseAttack": 312,
-        "baseDefense": 187
+        "baseStamina": 191,
+        "baseAttack": 284,
+        "baseDefense": 170
       }
     }
   },
