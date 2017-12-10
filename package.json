@@ -1,6 +1,6 @@
 {
   "name": "pokemon-go-cp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A calculator for Pokémon combat power given their level and IVs",
   "main": "lib/index.js",
   "files": [
